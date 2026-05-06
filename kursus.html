@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kursus - BelajarKuy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <img src="logo1.png" alt="Logo BelajarKuy"  width="80">
+            <span>BelajarKuy</span>
+        </div>
+        <nav>
+            <a href="index.html">Beranda</a>
+            <a href="kursus.html">Kursus</a>
+            <a href="#">Tentang</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <!-- TABEL DAFTAR KURSUS -->
+    <section class="tabel-section">
+        <h2>Daftar Kursus Tersedia</h2>
+        <p>Berikut adalah daftar kursus yang tersedia di BelajarKuy.</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Kursus</th>
+                    <th>Kategori</th>
+                    <th>Durasi</th>
+                    <th>Harga</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Belajar HTML & CSS dari Nol</td>
+                    <td>Teknologi & IT</td>
+                    <td>10 Jam</td>
+                    <td>Gratis</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>JavaScript untuk Pemula</td>
+                    <td>Teknologi & IT</td>
+                    <td>15 Jam</td>
+                    <td>Rp 150.000</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Desain UI/UX dengan Figma</td>
+                    <td>Desain Grafis</td>
+                    <td>12 Jam</td>
+                    <td>Rp 200.000</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Digital Marketing Dasar</td>
+                    <td>Bisnis & Marketing</td>
+                    <td>8 Jam</td>
+                    <td>Rp 100.000</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Bahasa Inggris untuk Kerja</td>
+                    <td>Bahasa</td>
+                    <td>20 Jam</td>
+                    <td>Rp 250.000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- FORMULIR PENDAFTARAN KURSUS -->
+    <section class="form-section">
+        <h2>Formulir Pendaftaran Kursus</h2>
+        <p>Isi formulir berikut untuk mendaftar kursus yang kamu inginkan.</p>
+
+        <form>
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" placeholder="Masukkan nama lengkap">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="contoh@email.com">
+
+            <label for="telepon">Nomor Telepon</label>
+            <input type="text" id="telepon" placeholder="08xxxxxxxxxx">
+
+            <label for="kursus">Pilih Kursus</label>
+            <select id="kursus">
+                <option value="">-- Pilih Kursus --</option>
+                <option value="html-css">Belajar HTML & CSS dari Nol</option>
+                <option value="javascript">JavaScript untuk Pemula</option>
+                <option value="uiux">Desain UI/UX dengan Figma</option>
+                <option value="marketing">Digital Marketing Dasar</option>
+                <option value="bahasa">Bahasa Inggris untuk Kerja</option>
+            </select>
+
+            <label for="pesan">Pesan / Pertanyaan</label>
+            <textarea id="pesan" placeholder="Tulis pesan atau pertanyaan kamu di sini..."></textarea>
+
+            <button type="submit">Daftar Sekarang</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p><strong>BelajarKuy</strong> - Platform Kursus Online Indonesia</p>
+        <p>Email: info@belajarkuy.com | Telp: 0812-3456-7890</p>
+        <p>&copy; 2025 BelajarKuy. Hak cipta dilindungi.</p>
+    </footer>
+
+</body>
+</html>
